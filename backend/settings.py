@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1',"ecomerback.azurewebsites.net"]
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','ecomerback.azurewebsites.net']
 
 
 # Application definition
@@ -156,7 +156,7 @@ AUTH_USER_MODEL = "users.User"
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173", 
-    "https://comercef.azurewebsites.net"      
+    "https://ecomerfront.azurewebsites.net/"      
 ]
 
 CORS_ALLOW_CREDENTIALS = True
