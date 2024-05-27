@@ -158,7 +158,7 @@ AUTH_USER_MODEL = "users.User"
 
 CORS_ALLOWED_ORIGINS = [
    
-    "https://thankful-sea-04cd8580f.5.azurestaticapps.net",      
+    "https://lively-moss-0d81b340f.5.azurestaticapps.net"    
 ]
 
 CORS_ALLOW_CREDENTIALS = True
