@@ -158,7 +158,8 @@ AUTH_USER_MODEL = "users.User"
 
 CORS_ALLOWED_ORIGINS = [
    
-    "https://lively-moss-0d81b340f.5.azurestaticapps.net"    
+    "https://lively-moss-0d81b340f.5.azurestaticapps.net",
+    "http://localhost:5173/"    
 ]
 
 CORS_ALLOW_CREDENTIALS = True
